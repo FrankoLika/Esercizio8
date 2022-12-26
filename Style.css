@@ -1,0 +1,428 @@
+
+#topbar{
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    margin-top: -8px;
+}
+
+/*------------------------------------- TOP LEFT -------------------------------------*/
+
+#topleft{
+    display: flex;
+    width: 50%;
+    cursor: pointer;
+}
+#topleft img{
+    width: 15%;
+}
+h1{
+    margin-left: 1%;
+}
+
+/*------------------------------------- TOP RIGHT -------------------------------------*/
+
+#topright{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: end;
+}
+#topright div:last-child{
+    color: orange;
+}
+.iconstop{
+    padding: 0.5em;
+    font-size: 22px;
+}
+#btn{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 30px;  
+}
+
+/*------------------------------------- BODY -------------------------------------*/
+
+#body{
+    display: flex;
+    padding-top: 70px;
+}
+
+/*---------------------------------- BODY LEFT -------------------------------------*/
+
+#bodyleft{
+    background-color: rgba(251, 247, 247, 0.797);
+    width: 70%;
+    padding-left: 8%;
+    padding-top: 4%;   
+}
+#sections{
+    display: flex;
+}
+#following{
+    padding-left: 7px;
+    padding-right: 15px;
+    color: gray;
+    border-bottom: solid 1px rgb(190, 190, 190);
+    cursor: pointer;
+}
+#recommended{
+    padding-left: 2px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    border-bottom: solid 1px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+#nn{
+    border-bottom: solid 1px rgb(190, 190, 190);
+    width: 40%;
+}
+
+/*------------------------------------- ARTICOLI -------------------------------------*/
+.posts{
+    margin-top: 5%;
+    position: relative;
+}
+.in{
+    color: gray;
+}
+.micon{
+    color: rgb(92, 92, 237);
+}
+
+.Titlepost{
+    width: 80%;
+    margin-top: 5px;
+}
+.textpost{
+    color: gray;
+    margin-top: -15px;
+    width: 75%;
+}
+.subt{
+    margin-top: 10px;
+    color: gray;
+}
+.react{
+    color: gray;
+    width: 50px;
+    height: 20px;
+    border: 0;
+    background-color: rgb(228, 221, 221);
+    border-radius: 10px;
+}
+.settings{
+    position: absolute;
+    top: 88%;
+    left: 64%;
+}
+.imgs{
+    position: absolute;
+    top: 18%;
+    left: 73%;
+}
+#img1{
+    position: absolute;
+    top: 10%;
+    left: 73%;
+}
+.imgs img{
+    width: 160px;
+    height: 115px;
+    border-radius: 10px;
+}
+#img1 img{
+    width: 160px;
+    height: 110px;
+    border-radius: 10px;
+}
+.micon2{
+    color: rgb(250, 85, 85);
+}
+.WD{
+    color: gray;
+    background-color: rgb(228, 221, 221);
+    border: 0;
+    border-radius: 10px;
+    height: 20px;
+}
+#settings1{
+    position: absolute;
+    top: 82%;
+    left: 64%;
+}
+#img3 img{
+    width: 160px;
+    height: 105px;
+    border-radius: 10px;
+}
+#img3{
+    position: absolute;
+    top: -5%;
+    left: 73%;
+}
+#settings2{
+    position: absolute;
+    top: 84%;
+    left: 64%;
+}
+#img2{
+    position: absolute;
+    top: 0%;
+    left: 73%;
+}
+#img2 img{
+    width: 160px;
+    height: 105px;
+    border-radius: 10px;
+}
+
+/*------------------------------------- BODY RIGHT -------------------------------------*/
+
+#bodyright{
+    background-color: rgba(243, 242, 242, 0.797);
+    width: 35%;
+    padding-right: 8%;
+    border-left: solid 1px rgb(190, 190, 190);
+}
+#topbr{
+    margin-left: 45px;
+    height: 20%;
+    width: 100%;
+    border-bottom: solid 1px rgba(190, 190, 190);  
+}
+#topbr:first-child img{
+    width: 50px;
+}
+#logos{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 7%;
+}
+#topbr ion-icon{
+    padding-top: 4px;
+    padding-left: 2px;
+    color: rgb(16, 177, 245);
+    font-size: 25px;
+}
+#texttopbr{
+    margin-top: 10px;
+    margin-right: 59px;
+    margin-left: 28px;
+}
+#ttpb{
+    display: flex;
+    justify-content: center;
+}
+#btntw{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+#divbtntw{
+    margin-top: 15px;
+    margin-left: 67px;
+}
+#twtlogo{
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+#linktopbr{
+    margin-left: 110px;
+    margin-top: 30px;
+}
+#linktopbr a{
+    color: rgb(148, 146, 146);
+}
+
+/*------------------------------------- MEDIUM BODY RIGHT -------------------------------------*/
+
+#medbr{
+    margin-top: 30px;
+    margin-left: 45px;
+    height: 20%;
+    width: 100%;
+}
+#btnsmbr{
+    width: 80%;
+    height: 70%;
+}
+#btnsmbr button{
+    color: rgb(59, 58, 58);
+    height: 30px;
+    border: 0;
+    background-color: rgba(232, 224, 224, 0.45);
+    border-radius: 25px;
+    margin-right: 5px;
+}
+#btnsmbr div{
+    padding: 9px;
+}
+#btnsmbr div:last-child button:last-child{
+    width: 45px;
+}
+
+/*------------------------------------- BOTTOM BODY RIGHT -------------------------------------*/
+
+#bottbr{
+    margin-left: 45px;
+    height: 20%;
+    width: 100%;
+}
+#bottbr div:first-child{
+    font-weight: bolder;
+    margin-bottom: 15px; 
+}
+.follow{
+    position: relative;
+    margin-bottom: 23px;
+    height: 50px;
+}
+.follow div{
+    height: 20px;
+    width: 63%;
+    margin-left: 60px;
+}
+.follow div:nth-child(2){
+    font-weight: bold;
+}
+.follow div:nth-child(3){
+    color: gray;
+}
+#bottbr img{
+    position: absolute;
+    height: 100%;
+    border-radius: 50px;
+}
+#bottbr button{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(111, 110, 110);
+    color: rgb(74, 72, 72);
+    left: 85%;
+    top: 8%;
+}
+
+/*------------------------------------- RECENTLY SAVED (BODY RIGHT) -------------------------------------*/
+
+#recentlysaved{
+    margin-top: 80px;
+    margin-left: 45px;
+}
+#logobottomright{
+    color: green;
+}
+#recentlysaved div:nth-child(2){
+    margin-top: 20px;
+}
+#tftwmy{
+    font-weight: bolder;
+    margin-top: 8px;
+}
+#oct2{
+    margin-top: 10px;
+    color: gray;
+}
+#oct2 ion-icon{
+    color: black;
+}
+#userbr{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+#seeall{
+    margin-top: 20px;
+}
+#seeall1{
+    text-decoration: none;
+    color: rgb(100, 151, 25);
+}
+
+/*------------------------------------- FOOTER -------------------------------------*/
+
+footer{
+    width: 100%;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+footer div a{
+    padding-right: 18px;
+}
+footer div:last-child{
+    margin-top: 10px;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+
+/*------------------------------------- EFFECTS -------------------------------------*/
+
+/*TOP RIGHT*/
+#topright div:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+#topright button:hover{
+    background-color: rgba(244, 238, 241, 0.781);  
+    cursor: pointer;  
+}
+
+/*ARTICOLI*/
+.settings ion-icon:first-child:hover{
+    color: red;
+}
+#settings1 ion-icon:first-child:hover{
+    color: red;
+}
+#settings2 ion-icon:first-child:hover{
+    color: red;
+}
+
+.settings ion-icon:last-child:hover{
+    color: rgb(78, 189, 197);
+}
+#settings1 ion-icon:last-child:hover{
+    color: rgb(78, 189, 197);
+}
+#settings2 ion-icon:last-child:hover{
+    color: rgb(78, 189, 197);
+}
+
+/*BODY RIGHT*/
+#btntw:hover{
+    background-color: rgb(213, 213, 213);
+}
+
+#btnsmbr button:hover{
+    cursor: pointer;
+    background-color: rgb(205, 215, 210);
+}
+
+.follow img:hover{
+    cursor: pointer;
+}
+.follow button:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+footer a:hover{
+    color: rgb(130, 60, 60);
+}
+
